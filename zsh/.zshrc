@@ -106,6 +106,7 @@ alias to='t today all -f by_day -v'
 alias ti='_ti() { t s "${1}"; t i "${2} }; _f'
 alias weather='curl wttr.in/wellington'
 alias weather2='curl "wttr.in/Wellington?format=v2"'
+alias todo='todo.sh'
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
