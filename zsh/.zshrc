@@ -102,7 +102,8 @@ source $ZSH/oh-my-zsh.sh
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 alias ffs='sudo `fc -n -l -1`'
 alias td='t today all -v '
-alias to='t today all -f by_day -v'
+alias ty='t yesterday all -v '
+alias ts='t today all -f by_day -v'
 alias ti='_ti() { t s "${1}"; t i "${2} }; _f'
 alias weather='curl wttr.in/wellington'
 alias weather2='curl "wttr.in/Wellington?format=v2"'
