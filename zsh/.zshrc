@@ -124,7 +124,7 @@ export LS_COLORS='ow=01;36;40'
 source /etc/bash_completion.d/azure-cli     
 source $HOME/opt/todo.txt/todo_completion
 
-fpath=(/var/lib/gems/2.5.0/gems/timetrap-1.15.2/completions/zsh $fpath)
+fpath=(/var/lib/gems/2.7.0/gems/timetrap-1.15.2/completions/zsh $fpath)
 autoload -Uz compinit
 compinit
 
@@ -136,7 +136,9 @@ compinit
 #export NVM_DIR="$HOME/.nvm"
 #[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export DOCKER_HOST=tcp://localhost:2375
+#export DOCKER_HOST=tcp://localhost:2375
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.dotnet/tools"
 export XDG_CONFIG_HOME=/c/Users/philipf/Dropbox/jrnl
+export PATH="$PATH:/usr/local/gradle/bin"
+export NVM_DIR="/home/philipf/.nvm"
