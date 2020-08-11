@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "Wellington     `env TZ=Pacific/Auckland date`"
+echo "Sydney         `env TZ=Australia/Sydney date`"
+echo "Perth          `env TZ=Australia/Perth date`"
+echo "Singapore      `env TZ=Asia/Singapore date`"
+echo "Moscow         `env TZ=Europe/Moscow date`"
+echo "South Africa   `env TZ=Africa/Johannesburg date`"
+echo "London         `env TZ=Europe/London date`"
+echo "New York       `env TZ=America/New_York date`"
+echo "Los Angeles    `env TZ=America/Los_Angeles date`"
