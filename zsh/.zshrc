@@ -78,7 +78,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git nvm)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -126,6 +126,7 @@ source /etc/bash_completion.d/azure-cli
 source $HOME/opt/todo.txt/todo_completion
 
 fpath=(/var/lib/gems/2.7.0/gems/timetrap-1.15.2/completions/zsh $fpath)
+fpath+=($ZSH/plugins/docker)
 autoload -Uz compinit
 compinit
 
@@ -140,6 +141,6 @@ compinit
 #export DOCKER_HOST=tcp://localhost:2375
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.dotnet/tools"
-export XDG_CONFIG_HOME=/c/Users/philipf/Dropbox/jrnl
+export XDG_CONFIG_HOME=/home/philipf/Dropbox/jrnl
 export PATH="$PATH:/usr/local/gradle/bin"
 export NVM_DIR="/home/philipf/.nvm"

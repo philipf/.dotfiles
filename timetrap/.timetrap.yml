@@ -1,5 +1,5 @@
 ---
-database_file: "/home/philipf/timetrap/.timetrap.db"
+database_file: "/home/philipf/Dropbox/timetrap/.timetrap.db"
 round_in_seconds: 900
 append_notes_delimiter: " "
 formatter_search_paths:
@@ -15,6 +15,7 @@ note_editor: vim
 week_start: Monday
 day_length_hours: 8
 progress_width: 40
-day_exclude_sheets: ["lunch"]
+day_exclude_sheets:
+- lunch
 day_countdown: true
 sheets_are_exclusive: true
