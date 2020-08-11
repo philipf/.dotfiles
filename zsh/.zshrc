@@ -124,6 +124,7 @@ export LS_COLORS='ow=01;36;40'
 
 source /etc/bash_completion.d/azure-cli     
 source $HOME/opt/todo.txt/todo_completion
+source $HOME/.dotfiles/utils/ta.sh
 
 fpath=(/var/lib/gems/2.7.0/gems/timetrap-1.15.2/completions/zsh $fpath)
 fpath+=($ZSH/plugins/docker)
