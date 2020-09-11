@@ -1,6 +1,7 @@
 #!/bin/sh
 
 echo "Wellington     `env TZ=Pacific/Auckland date`"
+echo "UTC            `env TZ=Etc/UTC date`"
 echo "Sydney         `env TZ=Australia/Sydney date`"
 echo "Perth          `env TZ=Australia/Perth date`"
 echo "Singapore      `env TZ=Asia/Singapore date`"
